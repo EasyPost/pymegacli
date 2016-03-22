@@ -16,7 +16,7 @@ UNKNOWN = 3
 
 
 def main():
-    CHECKS = {'PD', 'LD', 'BBU'}
+    CHECKS = ('PD', 'LD', 'BBU')
 
     parser = argparse.ArgumentParser()
 
